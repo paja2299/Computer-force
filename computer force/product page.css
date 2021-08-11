@@ -1,0 +1,133 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	background-position: center;
+	font-family: sans-serif;
+	display:grid;
+	background-color:lightgrey;
+	width:100%;
+}
+
+.navbar{
+	height:12%;
+	displey:flex;
+	align-items:center;
+}
+.logo{
+	width:200px;
+	cursor:pointer;
+}
+
+.header{
+	text-align:center;
+	padding:60px;
+	
+	font-size:30px;
+	color:white;
+}
+.main{
+	
+}
+
+.menu-bar{
+	text-align:center;
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	text-align:center;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:30px;
+	font-size:30px;
+	
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+.active, .menu-bar ul li:hover
+{	
+}
+
+.section{
+	float:left;
+	width:80%;
+	background-color:white;	
+}
+.card{
+	width:200px;
+	height:230px;
+	display:inline-block;
+	border-radius:10px;
+	padding:15px 25px;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin:10px 15px;
+	
+	
+	background-position:center;
+	background-size:cover;
+}
+.card1{
+	background-image: url(imga/audio.png);
+}
+.card2{
+	background-image: url(imga/comp.png);
+}
+.card3{
+	background-image: url(imga/keyboard and mice.png);
+}
+.card4{
+	background-image: url(imga/laptops.png);
+}
+.card5{
+	background-image: url(imga/monitors.webp);
+}
+.card6{
+	background-image: url(imga/networking.jpg);
+}
+.card7{
+	background-image: url(imga/Peripherals.png);
+}
+.card8{
+	background-image: url(imga/printing.png);
+}
+.card9{
+	background-image: url(imga/software.png);
+}
+.card10{
+	background-image: url(imga/Storage.png);
+}
+.card11{
+	background-image: url(imga/tablets.png);
+}
+.card:hover{
+	transform:translateY(-10px);
+}
+.aside{
+
+	background:white; 
+	position: absolute;
+	right:10px;
+	top:100px;
+	margin:0;
+	width: 20%;
+	
+}
+
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
